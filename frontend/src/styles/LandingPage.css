@@ -1,3 +1,50 @@
+.banner {
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #faaeffb3,
+    #1dd5feb3,
+    #fffb23b3,
+    #a199f7b3,
+    #fcd6ffb3
+  );
+  color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 4px 0px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.banner p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.banner-link {
+  color: rgb(34, 0, 255);
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.banner-link:hover {
+  color: #e4e5ff;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}
+
 .hero-text {
   font-family: Nulshock;
   color: rgb(249, 249, 249);

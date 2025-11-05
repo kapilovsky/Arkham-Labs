@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo } from "react";
 import { useProblemStore } from "../store/useProblemStore";
 import { useSubmissionStore } from "../store/useSubmissionStore";
-import { useStreak } from "../store/useStreak";
+import { useStreak } from "../hooks/useStreak";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {

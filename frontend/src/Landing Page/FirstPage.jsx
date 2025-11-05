@@ -101,10 +101,22 @@ export const FirstPage = () => {
       className="first-page min-h-screen w-full relative"
       ref={sectionRef}
     >
+      <div className="banner neue-med">
+        <ion-icon name="warning-sharp"></ion-icon> Backend is down right now,
+        but you can still see Arkham Labs in action!{" "}
+        <a
+          href="YOUR_YOUTUBE_VIDEO_URL"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="banner-link"
+        >
+          Watch the video demo
+        </a>
+      </div>
       <LandingPageNavbar />
 
       <div className="flex flex-col justify-center items-center absolute z-[1] w-full ">
-        <div className="h-[90vh] w-[98vw] relative overflow-hidden rounded-4xl">
+        <div className="h-[88vh] w-[98vw] relative overflow-hidden rounded-4xl">
           <motion.img
             src={bg}
             className="h-full w-full object-cover bg"

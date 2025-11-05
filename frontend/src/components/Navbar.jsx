@@ -3,7 +3,7 @@ import { useAuthStore } from "../store/useAuthStore";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import logo from "../assets/images/logo2.png";
-import { useStreak } from "../store/useStreak";
+import { useStreak } from "../hooks/useStreak";
 import { useSubmissionStore } from "../store/useSubmissionStore";
 import Switch from "./Switch";
 
