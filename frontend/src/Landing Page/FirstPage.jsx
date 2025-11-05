@@ -105,7 +105,7 @@ export const FirstPage = () => {
         <ion-icon name="warning-sharp"></ion-icon> Backend is down right now,
         but you can still see Arkham Labs in action!{" "}
         <a
-          href="YOUR_YOUTUBE_VIDEO_URL"
+          href="https://youtu.be/Rczr7Lizdy0?si=FhI8gm7j-HaZByIN"
           target="_blank"
           rel="noopener noreferrer"
           className="banner-link"

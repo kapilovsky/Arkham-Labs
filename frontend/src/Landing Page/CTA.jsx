@@ -115,7 +115,7 @@ export const CTA = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://youtu.be/Rczr7Lizdy0?feature=shared"
+                  href="https://youtu.be/Rczr7Lizdy0?si=FhI8gm7j-HaZByIN"
                 >
                   Watch Demo
                 </a>
