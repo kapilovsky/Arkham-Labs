@@ -9,7 +9,6 @@
     #fcd6ffb3
   );
   color: rgb(30, 30, 30);
-  text-align: center;
   padding: 4px 0px;
   font-size: 14px;
   display: flex;
@@ -40,8 +39,16 @@
 
 @media (max-width: 640px) {
   .banner {
-    font-size: 12px;
-    padding: 10px 15px;
+    font-size: 10px;
+    padding: 4px 2px;
+  }
+
+  .banner p {
+    gap: 0px;
+  }
+
+  .banner ion-icon {
+    display: none;
   }
 }
 

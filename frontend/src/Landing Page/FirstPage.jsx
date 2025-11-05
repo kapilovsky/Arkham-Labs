@@ -102,16 +102,20 @@ export const FirstPage = () => {
       ref={sectionRef}
     >
       <div className="banner neue-med">
-        <ion-icon name="warning-sharp"></ion-icon> Backend is down right now,
-        but you can still see Arkham Labs in action!{" "}
-        <a
-          href="https://youtu.be/Rczr7Lizdy0?si=FhI8gm7j-HaZByIN"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="banner-link"
-        >
-          Watch the video demo
-        </a>
+        <ion-icon name="warning-sharp"></ion-icon>{" "}
+        <p>
+          {" "}
+          Backend is down right now, but you can still see Arkham Labs in
+          action!{" "}
+          <a
+            href="https://youtu.be/Rczr7Lizdy0?si=FhI8gm7j-HaZByIN"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="banner-link"
+          >
+            Watch the video demo
+          </a>
+        </p>
       </div>
       <LandingPageNavbar />
 
